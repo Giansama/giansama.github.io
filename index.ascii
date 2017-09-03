@@ -1,12 +1,22 @@
 = Processamento Digital de Imagens
 Gian Cavalcante <giansama0@gmail.com>
+:toc-title: Sumário
+:toclevels: 3
+:toc: right
 
-An introduction to http://asciidoc.org[AsciiDoc].
+== Unidade 1
 
-== First Section
+=== 1. Manipulando pixels em uma imagem
 
-* item 1
-* item 2
+==== Imagens
 
-[source,ruby]
-puts "Hello, World!"
+==== Códigos
+
+
+=== 2. Preenchendo regiões
+
+=== 3. Manipulação de histogramas
+
+=== 4. Filtragem no domínio espacial I
+
+=== 5. Filtragem no domínio espacial II
