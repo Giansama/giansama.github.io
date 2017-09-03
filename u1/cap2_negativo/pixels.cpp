@@ -4,11 +4,11 @@
 using namespace cv;
 using namespace std;
 
-int main(int, char**){
+int main(int, char** argv){
   Mat image;
   Vec3b val;
 
-  image= imread("bolhas.png",CV_LOAD_IMAGE_GRAYSCALE);
+  image= imread(argv[1],CV_LOAD_IMAGE_GRAYSCALE);
   if(!image.data)
     cout << "nao abriu bolhas.png" << endl;
 
@@ -19,23 +19,23 @@ int main(int, char**){
       image.at<uchar>(i,j)=0;
     }
   }
-  
-  imshow("janela", image);  
+
+  imshow("janela", image);
   waitKey();
 
-  image= imread("bolhas.png",CV_LOAD_IMAGE_COLOR);
+  image= imread(argv[1],CV_LOAD_IMAGE_COLOR);
 
   val[0] = 0;   //B
   val[1] = 0;   //G
   val[2] = 255; //R
-  
+
   for(int i=200;i<210;i++){
     for(int j=10;j<200;j++){
       image.at<Vec3b>(i,j)=val;
     }
   }
 
-  imshow("janela", image);  
+  imshow("janela", image);
   waitKey();
   return 0;
 }
