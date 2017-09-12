@@ -51,7 +51,7 @@ int main(int argc, char** argv){
     cout << "x = "<< x<<endl;
 //
     if(x<-0.25){
-    	putText(image, "ALARME", cvPoint(250, 100), FONT_HERSHEY_COMPLEX_SMALL, 1, Scalar(255, 0, 0), 2);
+    	putText(image, "!!!", cvPoint(250, 100), FONT_HERSHEY_COMPLEX_SMALL, 1, Scalar(255, 0, 0), 2);
     }
 //
     calcHist(&planes[0], 1, 0, Mat(), histR, 1,

@@ -47,10 +47,15 @@ include::u1/cap3_conta_objetos/contador.cpp[]
 .Código 1 - Equalizador
 include::u1/cap4_equalize/equalize.cpp[]
 
+==== Imagem
+image::u1/cap4_equalize/img_saida.png[Negativo, 450]
+
 [source,cpp]
 .Código 2 - Detector de Movimento
 include::u1/cap4_motion/motiondetect.cpp[]
 
+==== Imagem
+image::u1/cap4_motion/img_saida.png[Negativo, 450]
 
 === 4. Filtragem no domínio espacial I
 
@@ -58,6 +63,9 @@ include::u1/cap4_motion/motiondetect.cpp[]
 [source,cpp]
 .Código Filtro Laplaciano
 include::u1/cap5_filtro_espacial/laplgauss.cpp[]
+
+==== Imagem
+image::u1/cap5_filtro_espacial/img_saida.png[Negativo, 450]
 
 
 === 5. Filtragem no domínio espacial II
