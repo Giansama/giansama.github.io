@@ -1,4 +1,4 @@
-= Processamento Digital de Imagens
+= Processamento Digital de Imagem
 Gian Cavalcante <giansama0@gmail.com> & Damiano Alves <email@gmail.com>
 :toc-title: Sumário
 :toclevels: 3
@@ -10,21 +10,68 @@ Gian Cavalcante <giansama0@gmail.com> & Damiano Alves <email@gmail.com>
 
 === 1. Manipulando pixels em uma imagem
 
-==== Imagens
-
+==== Imagem
 .Biel Negativo
-image::u1/cap2_negativo/resultados/saida.png[Negativo, 450]
+image::u1/cap2_negativo/img_saida.png[Negativo, 450]
 
-==== Códigos
-
+==== Código
 [source,cpp]
-.Código Negativo
+.Código 1 -Negativo
 include::u1/cap2_negativo/negativo.cpp[]
+
+==== Imagem
+.Biel Troca de Regiões
+image::u1/cap2_trocaregioes/img_saida.png[Negativo, 250]
+
+==== Código
+[source,cpp]
+.Código 2 - Troca de Regiões
+include::u1/cap2_trocaregioes/trocaregioes.cpp[]
 
 === 2. Preenchendo regiões
 
+==== Imagem
+.Bolhas após contagem
+image::u1/cap3_conta_objetos/img_saida.png[Negativo, 450]
+
+==== Código
+[source,cpp]
+.Código Contador de Objetos
+include::u1/cap3_conta_objetos/contador.cpp[]
+
+
 === 3. Manipulação de histogramas
+
+==== Códigos
+[source,cpp]
+.Código 1 - Equalizador
+include::u1/cap4_equalize/equalize.cpp[]
+
+[source,cpp]
+.Código 2 - Detector de Movimento
+include::u1/cap4_motion/motiondetect.cpp[]
+
 
 === 4. Filtragem no domínio espacial I
 
+==== Códigos
+[source,cpp]
+.Código Filtro Laplaciano
+include::u1/cap5_filtro_espacial/laplgauss.cpp[]
+
+
 === 5. Filtragem no domínio espacial II
+
+==== Códigos
+[source,cpp]
+.Código 1 - TiltShift
+include::u1/cap6_filtro_espacial_II/tiltshift.cpp[]
+
+[source,cpp]
+.Código 2 - TiltShift Video
+include::u1/cap6_filtro_espacial_II/tiltshiftvideo.cpp[]
+
+
+== Unidade 2
+
+IMPORTANT: EM BREVE..

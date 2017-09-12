@@ -8,7 +8,7 @@ int main(int argc, char** argv){
 // Abrindo a imagem
     Mat image = imread(argv[1], CV_LOAD_IMAGE_GRAYSCALE);
     if(!image.data){
-        cout << "Não foi possível abrir a imagem biel.png" << endl;
+        cout << "Não foi possível abrir a imagem" << endl;
     }
 // Capturando Coordenadas
     cout << "Entre com as coordenadas de P1 (X, Y): ";
