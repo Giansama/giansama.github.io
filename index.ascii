@@ -59,7 +59,7 @@ image::u1/cap4_motion/img_saida.png[Negativo, 450]
 
 === 4. Filtragem no domínio espacial I
 
-==== Códigos
+==== Código
 [source,cpp]
 .Código Filtro Laplaciano
 include::u1/cap5_filtro_espacial/laplgauss.cpp[]
@@ -84,7 +84,7 @@ include::u1/cap6_filtro_espacial_II/tiltshiftvideo.cpp[]
 
 === 1. Filtragem no domínio da frequência
 
-==== Códigos
+==== Código
 [source,cpp]
 .Código DFT
 include::u2/cap7_filtro_freq/filtro_freq.cpp[]
@@ -95,7 +95,7 @@ image::u2/cap7_filtro_freq/img_saida.png[Negativo, 700]
 
 === 2. Algoritmo de Canny e Pontilhismo
 
-==== Códigos
+==== Código
 [source,cpp]
 .Código Filtro Laplaciano
 include::u2/cap10_pontilhismo/canny.cpp[]
